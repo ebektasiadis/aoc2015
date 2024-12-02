@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "tsx": "^4.19.2"
+  },
+  "name": "aoc2015",
+  "main": "index.ts",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --config=./jest.config.js --rootDir=./",
+    "solve": "node --import=tsx ./index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
